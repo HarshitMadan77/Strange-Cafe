@@ -1,0 +1,38 @@
+.logo img{
+  border-radius: 50px;
+}
+
+.carousel-item img{
+  height: 500px; border-radius: 50px;
+}
+
+h5{
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ; 
+  font-size: xx-large;
+}
+
+h1{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.col-lg-2{
+  background-color:antiquewhite;
+  border-radius: 50px;
+  margin-bottom: 10px;
+  padding: 50px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+.topnav-right{
+  float:inline-end;
+  color: aliceblue;
+  padding: 5px;
+  padding-right: 25px;
+}
+
+#myInput{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+}

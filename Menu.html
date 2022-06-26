@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Menu of Cafe Strange</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3">
+    <div class="container-fluid">
+      <div class="logo"><img src="Pictures/Logo2.jpg" alt="Logo" height="30" width="30" style="border: 3px white; border-radius: 50px;" ></div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 px-2">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link Menu active " aria-current="page" href="Menu.html">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link Dine-In " aria-current="page" href="Dine In.html">Dine-In</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link Contact" href="Contact-us.html">Contact us</a>
+          </li>
+        </ul>
+        <div class="topnav-right">
+          <h4>Strange Cafe</h4>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <input type="text" name="input" id="myInput" placeholder="Search by Item name" onkeyup="TableSearch()">
+
+  <table class="table";>
+    <thead class="thead-dark" style="color:aliceblue ; background-color: darkslategrey;">
+      <tr>
+        <th scope="col">Item Number</th>
+        <th scope="col">Food Item</th>
+        <th scope="col">Rate</th>
+      </tr>
+    </thead>
+    <tbody id="mytable">
+      <tr>
+        <td>1</td>
+        <td>Sandwich</td>
+        <td>100 Rs</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Pizza</td>
+        <td>199 Rs</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Cupcakes</td>
+        <td>80 Rs</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>Macarons</td>
+        <td>120 Rs</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>Donuts</td>
+        <td>110 Rs</td>
+      </tr>
+      <tr>
+        <td>6</d>
+        <td>Croissant</td>
+        <td>100 Rs</td>
+      </tr>
+      <tr>
+        <td>7</td>
+        <td>Bagels</td>
+        <td>110 Rs</td>
+      </tr>
+      <tr>
+        <td>8</td>
+        <td>Iced Coffee</td>
+        <td>80 Rs</td>
+      </tr>
+      <tr>
+        <td>9</td>
+        <td>Latte</td>
+        <td>80 Rs</td>
+      </tr>
+      <tr>
+        <td>10</td>
+        <td>Soup</td>
+        <td>120 Rs</td>
+      </tr>
+       <tr>
+        <td>11</td>
+        <td>Salads</td>
+        <td>90 Rs</td>
+      </tr>
+      <tr>
+        <td>12</td>
+        <td>Pastries</td>
+        <td>70 Rs</td>
+      </tr> 
+      <tr>
+        <td>13</td>
+        <td>Pasta</td>
+        <td>180 Rs</td>
+      </tr> 
+      <tr>
+        <td>14</td>
+        <td>Noodles</td>
+        <td>120 Rs</td>
+      </tr> 
+    </tbody>
+  </table>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
